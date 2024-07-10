@@ -1,0 +1,727 @@
+/* CSS for contact */
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    background-color: #f4f4f4;
+    line-height: 1.6;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+header {
+    background-color: #ff6347;
+    padding: 20px 0;
+    color: white;
+}
+
+header nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+header .brandLogo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+header .icon {
+    display: none;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+header ul li a {
+    padding: 5px 10px;
+    transition: background-color 0.3s;
+}
+
+header ul li a:hover {
+    background-color: white;
+    color: #ff6347;
+    border-radius: 5px;
+}
+
+header .navButtons {
+    display: flex;
+    gap: 10px;
+}
+
+header .navButtons .btn {
+    border: none;
+    padding: 10px 20px;
+    background-color: white;
+    color: #ff6347;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border-radius: 5px;
+}
+
+header .navButtons .btn:hover {
+    background-color: #e5533d;
+    color: white;
+}
+
+header .navButtons .btn a {
+    color: #ff6347;
+}
+
+.contactSection {
+    padding: 50px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.contactSection h2 {
+    font-size: 32px;
+    color: #ff6347;
+    margin-bottom: 20px;
+}
+
+.contactSection h4 {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.contactForm {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #fafafa;
+}
+
+.contactForm input,
+.contactForm textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.contactForm .contact-btn {
+    padding: 10px 20px;
+    background-color: #ff6347;
+    color: white;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    border-radius: 5px;
+}
+
+.contactForm .contact-btn:hover {
+    background-color: #e5533d;
+}
+
+#contactMessageSubmision {
+    display: none;
+    color: #28a745;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.footerSocial {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding: 20px 0;
+    background-color: #333;
+}
+
+.footerSocial a {
+    color: white;
+    font-size: 20px;
+    transition: color 0.3s;
+}
+
+.footerSocial a:hover {
+    color: #ff6347;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+}
+
+footer p {
+    margin: 10px 0 0;
+}
+
+/* CSS for index (testimonial) */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+img {
+    max-width: 100%;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 10px 0;
+    position: relative;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+.icon {
+    font-size: 24px;
+    cursor: pointer;
+    display: none;
+}
+
+.brandLogo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: #fff;
+    padding: 5px 10px;
+    transition: background 0.3s ease;
+}
+
+nav ul li a:hover {
+    background: #555;
+    border-radius: 5px;
+}
+
+.navButtons {
+    display: flex;
+}
+
+.navButtons .btn {
+    margin-left: 10px;
+}
+
+.btn {
+    background: #ff7e00;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.btn:hover {
+    background: #e76b00;
+}
+
+.headerContent {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.headerContent h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.headerContent h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.orderBtn a {
+    color: #fff;
+}
+
+.imgCover {
+    background: url('images/baki.png') no-repeat center center/cover;
+    height: 600px;
+}
+
+/* Testimonials Section */
+.testimonalsSection {
+    background: #fff;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.testimonalsSection h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.Testimonals {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.testimonal {
+    background: #f9f9f9;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 10px;
+    width: 300px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.testimonal img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.testimonal h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.testimonal p {
+    font-size: 14px;
+    color: #555;
+}
+
+/* Feedback Section */
+.feedbackSection {
+    background: #e7e7e7;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.feedbackSection .feedback {
+    margin-bottom: 20px;
+}
+
+.feedbackSection h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.feedbackSection p {
+    font-size: 16px;
+    color: #666;
+}
+
+.feedbackForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.feedbackForm input, .feedbackForm textarea {
+    width: 100%;
+    max-width: 500px;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.feedbackForm .feedbackBtn {
+    background: #ff7e00;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.feedbackForm .feedbackBtn:hover {
+    background: #e76b00;
+}
+
+#feedbackMessage {
+    margin-top: 10px;
+    color: green;
+}
+
+/* About Us Section */
+section.about {
+    padding: 50px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+section.about h1 {
+    font-size: 32px;
+    color: #ff6347;
+    margin-bottom: 20px;
+}
+
+section.about .aboutIntro, 
+section.about .mission, 
+section.about .commitment, 
+section.about .value {
+    margin-bottom: 40px;
+    transition: transform 0.3s;
+}
+
+section.about .aboutIntro:hover,
+section.about .mission:hover,
+section.about .commitment:hover,
+section.about .value:hover {
+    transform: scale(1.05);
+}
+
+section.about p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+    color: #666;
+}
+
+.imgCover {
+    background: url('images/bki.png') no-repeat center center/cover;
+    height: 100px;
+}
+
+.footerSocial {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding: 20px 0;
+    background-color: #333;
+}
+
+.footerSocial a {
+    color: white;
+    font-size: 20px;
+    transition: color 0.3s;
+}
+
+.footerSocial a:hover {
+    color: #ff6347;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+@media (max-width: 768px) {
+    header nav {
+        flex-direction: column;
+    }
+
+    header ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contactSection h2,
+    section.about h1 {
+        font-size: 28px;
+    }
+
+    .contactSection h4,
+    section.about p {
+        font-size: 16px;
+    }
+
+    .contactForm input,
+    .contactForm textarea,
+    .feedbackForm input,
+    .feedbackForm textarea {
+        font-size: 14px;
+    }
+
+    .headerContent h1 {
+        font-size: 28px;
+    }
+
+    .headerContent h2 {
+        font-size: 20px;
+    }
+
+    .testimonalsSection h1 {
+        font-size: 24px;
+    }
+
+    .testimonal {
+        width: 250px;
+    }
+}
+
+
+
+
+
+
+/* About Section */
+.about {
+    padding: 4rem 2rem;
+    background-color: #ff5722;
+    color: #fff;
+    text-align: center;
+    position: relative;
+}
+
+.about h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+
+.about p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    max-width: 800px;
+    margin: 0 auto 2rem auto;
+}
+
+.about::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('path/to/your/background-image.jpg') no-repeat center center/cover;
+    opacity: 0.2;
+    z-index: -1;
+}
+
+/* About Section Individual Parts */
+.about .mission, .about .commitment, .about .value {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 2rem;
+    border-radius: 10px;
+    margin-top: 2rem;
+}
+
+.about .mission h1, .about .commitment h1, .about .value h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+    letter-spacing: 1.2px;
+    color: #ff5722;
+}
+
+.about .mission p, .about .commitment p, .about .value p {
+    font-size: 1.1rem;
+    line-height: 1.8;
+}
+
+/* Image Cover */
+.imgCover {
+    background: url('path/to/your/image.jpg') no-repeat center center/cover;
+    height: 300px;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 2rem;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.footerSocial {
+    margin-bottom: 1rem;
+}
+
+.footerSocial a {
+    color: #fff;
+    margin: 0 0.5rem;
+    font-size: 1.5rem;
+    transition: color 0.3s;
+}
+
+.footerSocial a:hover {
+    color: #ff5722;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    nav .icon {
+        display: block;
+    }
+
+    nav ul {
+        display: none;
+        flex-direction: column;
+        gap: 0;
+    }
+
+    nav ul li {
+        margin-bottom: 1rem;
+    }
+
+    nav ul li a {
+        font-size: 1.2rem;
+    }
+
+    nav .navButtons {
+        display: none;
+    }
+
+    .about {
+        padding: 2rem 1rem;
+    }
+
+    .about h1 {
+        font-size: 2rem;
+    }
+
+    .about p {
+        font-size: 1rem;
+    }
+}
+
+
+/* menu css*/
+
+
+.menu {
+    padding: 4rem 2rem;
+    background-color: #fff;
+    text-align: center;
+}
+
+.menu h1 {
+    font-size: 2.5rem;
+    color: #ff5722;
+    margin-bottom: 2rem;
+}
+
+.menu-items {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: center;
+}
+
+.menu-item {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    width: 300px;
+    padding: 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.menu-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.menu-item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}
+
+.menu-item h2 {
+    font-size: 1.5rem;
+    color: #ff5722;
+    margin-bottom: 1rem;
+}
+
+.menu-item p {
+    font-size: 1rem;
+    color: #666;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem 2rem;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.footerSocial {
+    margin-bottom: 1rem;
+}
+
+.footerSocial a {
+    color: #fff;
+    margin: 0 0.5rem;
+    font-size: 1.5rem;
+    transition: color 0.3s;
+}
+
+.footerSocial a:hover {
+    color: #ff5722;
+}
+
+footer p {
+    margin: 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    nav .icon {
+        display: block;
+    }
+
+    nav ul {
+        display: none;
+        flex-direction: column;
+        gap: 0;
+    }
+
+    nav ul li {
+        margin-bottom: 1rem;
+    }
+
+    nav ul li a {
+        font-size: 1.2rem;
+    }
+
+    nav .navButtons {
+        display: none;
+    }
+
+    .menu-items {
+        flex-direction: column;
+        gap: 1rem;
+    }
+}

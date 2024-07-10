@@ -1,0 +1,107 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QuickEats</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/javascript.util/0.12.12/javascript.util.min.js"
+        integrity="sha512-oHBLR38hkpOtf4dW75gdfO7VhEKg2fsitvHZYHZjObc4BPKou2PGenyxA5ZJ8CCqWytBx5wpiSqwVEBy84b7tw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="icon">
+                <i id="menu" class="fa-solid fa-bars"></i>
+            </div>
+            <div class="brandLogo">Food Haven</div>
+            <ul>
+                <li> <a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+            <div class="navButtons">
+                <button class="btn loginBtn"><a href="/"> Login</a></button>
+                <button class="btn signupBtn"><a href="/">Signup</a></button>
+            </div>
+        </nav>
+        <section class="about">
+            <h1><span id="aboutIntro"></span></h1>
+            <div class="aboutIntro">
+                <p>Welcome to Food Haven, your ultimate destination for delightful dining at your fingertips.
+                     Explore a diverse menu of delicious dishes, expertly
+                     crafted and delivered with care, making every meal an exceptional experience.</p>
+            </div>
+
+            <div class="mission">
+                <h1><span id="mission"></span></h1>
+                <p>ur objective at Food Haven is to provide a seamless and enjoyable dining experience
+                     through an easy-to-use platform. We aim to offer a diverse selection of high-quality
+                      dishes, ensuring prompt and reliable delivery, to satisfy the culinary desires of our
+                       customers and foster a community of food enthusiasts.</p>
+            </div>
+            <div class="commitment">
+                <h1><span id="commitment"></span></h1>
+                <p>t Food Haven, we are committed to delivering exceptional service and culinary excellence. 
+                    We promise to source the finest ingredients, prepare each dish with care, and ensure timely 
+                    delivery to delight our customers. Our commitment is to create a seamless and enjoyable dining 
+                    experience that exceeds expectations, making us your trusted choice for convenient and delicious meals</p>
+            </div>
+            <div class="value">
+                <h1><span id="value"></span></h1>
+                <p>At Food Haven, we value quality, convenience, and customer satisfaction 
+                    above all else. We strive to provide a diverse menu of delectable dishes, 
+                    prepared with care and delivered efficiently. Our goal is to enhance your dining 
+                    experience with every order, ensuring freshness and flavor in every bite.</p>
+            </div>
+        </section>
+        <div class="imgCover"></div>
+
+    </header>
+    <footer>
+        <div class="footerSocial">
+            <a href="www.linkedin.com" target="_blank"><i
+                    class="fa-brands fa-linkedin"></i></a>
+            <a href="www.instagram.com" target="_blank"><i
+                    class="fa-brands fa-instagram"></i></a>
+            <a href="www.facebook.com" target="_blank"><i
+                    class="fa-brands fa-facebook"></i></a>
+            <a href="mailto:shehriyarali122@.com" target="_blank"><i class="fa-solid fa-envelope"></i></a>
+
+        </div>
+        <div class="copyright">
+            <p>&copy; 2024 shehriyarali. All Rights Reserved.</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+    <script>
+        var typed = new Typed('#aboutIntro', {
+            strings: ['Welcome to FoodHaven', 'About FoodHaven'],
+            typeSpeed: 50,
+        });
+        var typed = new Typed('#mission', {
+            strings: ['Our Objectives'],
+            typeSpeed: 0,
+        });
+        var typed = new Typed('#value', {
+            strings: ['Why Choose FoodHaven?'],
+            typeSpeed: 0,
+        });
+        var typed = new Typed('#commitment', {
+            strings: ['Commitment'],
+            typeSpeed: 0,
+        });
+    </script>
+
+</body>
+
+</html>
